@@ -150,7 +150,33 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     color: white;
 background: #E02C6D;
 } 
-
+footer{
+    background: #0A0826;
+    color: #FFF;
+    text-align: center;
+    padding: 60px 200px;
+    margin-top: 70px;
+}
+.footer h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer h3{
+    font-size: 12px;
+    font-weight: 700;
+}
+.footer p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.footer-image a{
+    color: #FFF;
+    margin-right: 16px;
+    
+}
+.footer-image{
+    margin-top: 20px;
+}
 @media screen and (max-width:576px) {
    
     nav{
@@ -198,5 +224,7 @@ background: #E02C6D;
       padding: 0 20px;
       
     }
-    
+    footer{
+     padding: 20px;
+    }
 }
