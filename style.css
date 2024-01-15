@@ -33,6 +33,7 @@ nav li a{
     font-weight: 600;
 }
 .btn{
+    border: none;
     border-radius: 41px;
     padding: 10px 24px;
     
@@ -146,7 +147,7 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
 .btn-style{
     padding: 10px 24px;
-    
+    border: none;
     color: white;
 background: #E02C6D;
 } 
