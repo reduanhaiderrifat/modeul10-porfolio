@@ -128,13 +128,19 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 .feature{
     display: flex;
     
-    align-items: center;
+    justify-content: space-between;
     gap: 50px;
     padding: 0 120px;
     margin-top: 90px;
 }
 .feature-image img{
-    width:100%;
+    width:250%;
+    
+}
+.feature-content{
+    align-items: center;
+   
+    padding-left:200px;
     
 }
 .feature h2{
@@ -164,19 +170,20 @@ footer{
     
 }
 .footer h2{
-    font-size: 16px;
+    font-size: 26px;
     font-weight: 700;
 }
 .footer h3{
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 700;
 }
 .footer p{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
 }
 .footer-image a{
     color: #FFF;
+    
     margin-right: 16px;
     
 }
@@ -233,12 +240,12 @@ footer{
       padding: 0 20px;
       
     }
+   .feature-content{
+    align-items: center;
+    padding: 20px;
+   }
     .feature-image img{
     width: 100%;
-    
-
-    
-    
     }
     footer{
      padding: 20px;
